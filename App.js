@@ -1,8 +1,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { Text, StyleSheet, View, FlatList, TouchableHighlight, TouchableWithoutFeedback, Keyboard, Platform  } from 'react-native';
-import Cita from './component/Cita';
-import Formulario from './component/Formulario';
+import Cita from './src/component/Cita';
+import Formulario from './src/component/Formulario';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Colors from './src/utils/colors';
 
